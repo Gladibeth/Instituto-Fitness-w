@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="19px" viewBox="0 0 19 19" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-rating</title>
+    <defs>
+        <polygon id="path-1" points="0 0.0001 18.707 0.0001 18.707 18.6789 0 18.6789"></polygon>
+    </defs>
+    <g id="Home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-810.000000, -1199.000000)">
+            <g id="clase-gratis" transform="translate(137.000000, 1036.000000)">
+                <g id="icon-rating" transform="translate(673.000000, 163.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M4.3452,11.9446 L3.3572,17.9986 C3.2792,18.4796 3.7922,18.8406 4.2172,18.6046 L9.3542,15.7656 L14.4912,18.6056 C14.9112,18.8396 15.4302,18.4856 15.3502,17.9996 L14.3632,11.9446 L18.5412,7.6626 C18.8722,7.3236 18.6822,6.7486 18.2112,6.6766 L12.4602,5.7986 L9.8822,0.3076 C9.6902,-0.1024 9.0172,-0.1024 8.8242,0.3076 L6.2472,5.7976 L0.4962,6.6756 C0.0242,6.7486 -0.1648,7.3226 0.1672,7.6616 L4.3452,11.9446 Z" id="Fill-1" fill="#FFD100" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
