@@ -11,6 +11,7 @@ $(function () {
 
   $('.nav-link__mobile').on('click', function () {
     $('.offcanvas-collapse').removeClass('open')
+    $('.hamburger').removeClass("is-active");
   })
 })
 

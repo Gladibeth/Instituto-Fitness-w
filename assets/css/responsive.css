@@ -14,7 +14,7 @@
     color: #000;
   }
   .navbar-brand {
-    width: 200px;
+    width: 150px;
     margin-left: 10px;
   }
   .main-brand {
@@ -32,6 +32,9 @@
     width: 80%;
     left: 10%;
   }
+  .banner-btns a:nth-child(1){
+    margin-bottom: 20px;
+  }
   .main-banner .mask .main-banner__text .main-banner__title p {
     font-size: 30px;
     padding: 0;
@@ -42,6 +45,156 @@
   }
   .main-general__title p {
     font-size: 40px;
+  }
+
+  .main-banner .mask .main-banner__text {
+    width: 90%;
+    padding-left: 1rem;
+  }
+
+  .main-banner__title {
+    width: 100%;
+    padding-top: 5rem;
+  }
+  p.main-banner__description{
+    font-size: 18px !important;
+  }
+  .main-clients__content {
+    display: none;
+  }
+  .main-courses__contentbox {
+    display: none;
+  }
+  .main-courses__slider{
+    display: grid;
+    margin-top: 60px;
+    padding-left: 1rem;
+  }
+  .main-courses__contentimg {
+    width: 95%;
+  }
+  .main-firstClass__content{
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .main-cta__text p{
+    font-size: 20px;
+  }
+  .main-premium {
+    background-color: #191c21;
+    padding: 80px 0;
+  }
+  .main-fqa{
+    padding: 40px 0;
+  }
+  .main-cta__text {
+    width: 85%;
+  }
+  .main-firstClass::after {
+    bottom: -15px;
+    height: 2rem;
+  }
+
+  .btn-premiums {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+  }
+  .main-cta__text.main-cta__text--join {
+    width: 85%;
+  }
+  .main-courses__content{
+    grid-template-columns: 1fr;
+  }
+  
+  .main-courses__box {
+    padding: 1rem;
+  }
+  .main-premiun__content {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+  .main-courses {
+    height: 800px;
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+  .main-testimonials__content{
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+  }
+  .main-testimonials{
+    padding-bottom: 0;
+  }
+  .main-firstClass__btn{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .main-firstClass__btn a:nth-child(1){
+    margin-bottom: 10px;
+  }
+  .main-firstClass__video img {
+    object-fit: cover;
+  }
+  .main-firstClass__box {
+    padding-top: 0px;
+  }
+
+  .main-clients__item{
+    width: 100%;
+  }
+  .main-sales__item{
+    padding: 30px 0px;
+  }
+  ul.list_sales {
+    width: 85%;
+  }
+
+  .main-sales__item{
+    width: 100%;
+  }
+  .main-contact__content{
+    grid-template-columns: 100%;
+    grid-gap: 1rem;
+  }
+  .main-footer__ul{
+    margin: 20px 0;
+  }
+  .main-footer__content {
+    padding: 20px 0 40px 0;
+    grid-template-columns: 1fr;
+  }
+  .main-footer__copy {
+    flex-direction: column;
+  }
+  .main-footer__copy p {
+    margin-bottom: 10px;
+  }
+  .main-footer__copy div {
+    padding: 0;
+  }
+  .btn--large, .btn--medium {
+    padding: 12px 55px;
+    font-size: 15px;
+  }
+
+  .btn--medium {
+    padding: 12px 50px;
+    font-size: 15px;
+  }
+  .main-sales__content{
+    display: none;
+  }
+  .main-banner .mask .main-banner__text.content-center {
+    justify-content: center;
+    padding-left: 0;
+    width: 100%;
+  }
+  .main-banner .mask .main-banner__text.content-center p{
+    text-align: center;
+  }
+  .main-contact{
+    padding-bottom: 30px;
   }
 }
 
@@ -56,6 +209,61 @@
     height: 100%;
     align-items: center;
   }
+  .navbar-brand{
+    width: 150px;
+  }
+  .main-banner .mask .main-banner__text {
+    padding-left: 2.5rem;
+  }
+  .main-banner .mask .main-banner__text .main-banner__title p {
+    font-size: 30px;
+    padding: 0;
+  }
+  .banner-btns a:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  p.main-banner__description {
+    font-size: 18px !important;
+  }
+  .main-firstClass__btn{
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .main-firstClass__btn a:nth-child(1){
+    margin-bottom: 10px;
+  }
+  .main-firstClass__video img {
+    object-fit: cover;
+  }
+  .main-courses__box {
+    padding: 2rem 2rem;
+  }
+  .main-courses__slider{
+    display: grid;
+  }
+  .main-courses__contentbox {
+    display: none;
+  }
+  .main-fqa{
+    padding-top: 0;
+  }
+  .main-footer__ul li a,.main-footer__copy p {
+    font-size: 13px;
+  }
+  .main-sales__item {
+    width: 48%;
+  }
+  .main-contact__content {
+    grid-template-columns: 35% 60%;
+    grid-gap: 1rem;
+  }
+  .main-banner .mask .main-banner__text.content-center {
+    justify-content: center;
+    padding-left: 0;
+  }
+  .main-banner .mask .main-banner__text.content-center p{
+    text-align: center;
+  }
 }
 
 
@@ -65,5 +273,47 @@
   }
   .main-banner .mask .main-banner__text .main-banner__description {
     font-size: 18px;
+  }
+  .main-banner .mask .main-banner__text {
+    padding-left: 2.5rem;
+  }
+  .main-banner .mask .main-banner__text .main-banner__title p {
+    font-size: 30px;
+    padding: 0;
+  }
+  .banner-btns a:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  p.main-banner__description {
+    font-size: 18px !important;
+  }
+
+  .main-courses__box {
+    padding: 2rem 2rem;
+  }
+  .main-courses__contentimg {
+    width: 200px;
+    height: 250px;
+  }
+  .main-courses__box{
+    width: 80%;
+  }
+  .main-courses__contentbox {
+    grid-gap: 1rem;
+    right: 1rem;
+  }
+  .main-contact__content {
+    grid-template-columns: 35% 50% 10%;
+    grid-gap: 1rem;
+  }
+  .main-banner .mask .main-banner__text.content-center {
+    justify-content: center;
+    padding-left: 0;
+  }
+  .main-banner .mask .main-banner__text.content-center p{
+    text-align: center;
+  }
+  .main-sales__item {
+    width: 40%;
   }
 }

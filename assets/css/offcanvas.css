@@ -10,7 +10,7 @@
     padding-left: 1rem;
     overflow-y: auto;
     visibility: hidden;
-    background-color: #fff;
+    background-color: #24272c;
     transition-timing-function: ease-in-out;
     transition-duration: .3s;
     transition-property: left, visibility;
@@ -97,15 +97,15 @@
 }
 
 .hamburger-inner.js-hamburger {
-  background-color: #ff5d18;
+  background-color: #ff451d;
 }
 
 .hamburger-inner.js-hamburger:before {
-  background-color: #ff5d18;
+  background-color: #ff451d;
 }
 
 .hamburger-inner.js-hamburger::after {
-  background-color: #ff5d18;
+  background-color: #ff451d;
 }
 
 .hamburger-inner,
