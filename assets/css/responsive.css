@@ -16,6 +16,12 @@
   .nav-link {
     color: #000;
   }
+  .main-courses__small {
+    z-index: 999;
+  }
+  .arrowsline::after {
+    top: 51%;
+  }
   .navbar-brand {
     width: 150px;
     margin-left: 10px;
@@ -134,7 +140,7 @@
     flex-direction: column;
   }
   .main-firstClass__btn a:nth-child(1){
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   .main-firstClass__video img {
     object-fit: cover;
