@@ -2,9 +2,7 @@
   .main-huincha p{
     font-size: 13px;
   }
-  section {
-    padding: 50px 0 0 0;
-  }
+
   .navbar {
     height: 75px;
   }
@@ -62,17 +60,17 @@
   }
 
   .main-banner__title {
-    width: 100%;
+    width: 90%;
     padding-top: 5rem;
   }
   p.main-banner__description{
     font-size: 18px !important;
   }
-  .main-clients__content {
-    display: none;
-  }
-  .main-courses__contentbox {
-    display: none;
+  
+  .main-courses__contentbox{
+    grid-template-columns: 1fr;
+    right: 1rem;
+    grid-gap: 1rem;
   }
   .main-courses__slider{
     display: grid;
@@ -81,6 +79,7 @@
   }
   .main-courses__contentimg {
     width: 95%;
+    height: 190px;
   }
   .main-firstClass__content{
     grid-template-columns: 1fr;
@@ -124,7 +123,7 @@
     grid-gap: 1rem;
   }
   .main-courses {
-    height: 800px;
+    height: 1050px;
     padding-top: 100px;
     padding-bottom: 70px;
   }
@@ -205,6 +204,41 @@
   .main-contact{
     padding-bottom: 30px;
   }
+  .main-clients__sales {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .main-why__content {
+    grid-template-columns: 1fr;
+    grid-gap:1rem;
+  }
+  .main-firstClass__title.title-dark p{
+    text-align: center;
+  }
+  .main-workspace__content {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 0;
+  }
+  
+  .main-workspace__item:nth-child(1) {
+    padding-left: 1rem;
+  }
+  .main-workspace__img {
+    position: absolute;
+    z-index: 999;
+    right: 0;
+    width: 100%;
+    height: 160px;
+  }
+  .main-workspace__img img{    
+    height: 100%;
+    object-fit: contain;
+  }
+  .main-why__item {
+    width: 100%;
+    margin-bottom: 5%;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -272,6 +306,38 @@
   }
   .main-banner .mask .main-banner__text.content-center p{
     text-align: center;
+  }
+  .main-why__item{
+    margin-bottom: 2%;
+  }
+  .main-why__item:nth-child(1){
+    width: 48%;
+    
+  }
+
+  .main-why__item:nth-child(2){
+    width: 48%;
+  }
+  .main-why__item:nth-child(3){
+    width: 100%;
+  }
+  .main-why__item:nth-child(1) .main-why__box{
+    height: 100%;
+  }
+  .main-why__item:nth-child(3) .main-why__box .main-why__boxp:before{
+    height: 3rem;
+  }
+  .main-workspace__content {
+    grid-template-columns: 1fr;
+  }
+  .main-workspace__img {
+    height: 190px;
+  }
+  .main-clientsgrid .main-clients__item{
+    width: 55%;
+  }
+  .main-clients__sales .main-clients__salesitem:nth-child(2) {
+    margin-top: 0;
   }
 }
 
