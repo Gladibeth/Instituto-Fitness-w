@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon-video-play</title>
+    <g id="Home-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-552.000000, -1787.000000)">
+            <g id="icon-video-play" transform="translate(552.000000, 1787.000000)">
+                <circle id="Oval" stroke="#FFFFFF" fill-opacity="0.5" fill="#000000" cx="24" cy="24" r="23.5"></circle>
+                <g id="Group-5" transform="translate(2.000000, 3.000000)" fill="#FFFFFF">
+                    <path d="M32.9865542,19.9836572 L16.7494284,10.3378132 C16.3585772,10.1055774 15.8770243,10.1055774 15.4861731,10.3378132 C15.0953219,10.5698757 14.8545455,10.998992 14.8545455,11.4634635 L14.8545455,30.7547183 C14.8545455,31.2190166 15.0953219,31.6481328 15.4861731,31.8803686 C15.6815566,31.9964865 15.8996787,32.0545455 16.1178008,32.0545455 C16.3359228,32.0545455 16.5540449,31.9964865 16.7494284,31.8804553 L32.9865542,22.2348712 C33.3774054,22.0027221 33.6181818,21.5736058 33.6181818,21.1091342 C33.6181818,20.6449226 33.3774054,20.2158064 32.9865542,19.9836572" id="Fill-3"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
